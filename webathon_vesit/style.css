@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,800;1,200&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background: linear-gradient(#7a04eb, #120458);
+    overflow: none;
+    box-sizing: border-box;
+}
+.navbar {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+nav {
+    padding: 1rem;
+    background: #fff;
+    /* padding: 1rem; */
+    height: 4rem;
+    border-radius: 30px;
+    margin: 0 auto;
+
+}
+.navlinks {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.navlinks:hover {
+    color: #9b006c;
+}
+
+.main-section {
+    
+    height: 100vh;
+}
+
+.card {
+    min-height: 500px;
+    /* border: 1px solid #000; */
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 13px 0 rgba(0, 0, 0, 0.412);
+    background-color: #fff;
+}
+
+.myani {
+    animation: myani 4s infinite;
+}
+.card .title {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 900;
+    padding-bottom: 60px;
+
+}
+
+.card-img1 {
+    background: url("./1.jpg");
+    background-size: cover;
+    min-height: 400px;
+
+}
+
+
+.card-img2 {
+    background: url("./2.jpg");
+    background-size: cover;
+    min-height: 400px;
+
+}
+.card-img3 {
+    background: url("./3.jpg");
+    background-size: cover;
+    min-height: 400px;
+
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    
+}
+
+.card .para {
+    padding: 2rem;
+    font-size: 24px;
+}
+.main-container {
+    text-align: center;
+}
+
+.main-title {
+    font-size:72px;
+    font-weight: 900;
+    color: #ded9ff;
+    height: 100vh;
+    line-height: 100vh;
+}
+
+@keyframes myani {
+    0% {background-color: #fff;}
+    25% {background-color: #c4ffff;}
+    50% {background-color: #08deea;}
+    100% {background-color: #1261d1;}
+}
+footer {
+    height: 200px;
+    background: #fff;
+}
+.center {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+}
+
+.center-icon {
+    background-color: #fff;
+    text-align: center;
+    font-size: 33px;
+}
