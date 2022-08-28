@@ -128,7 +128,7 @@ nav {
     color: #fff;
     text-shadow: 4px 4px var(--pink),
         -4px -4px var(--secondary),
-        2px 2px 150px pink;
+        2px 2px 60px rgba(255, 192, 203, 0.63);
     /* background: var(--red); */
     /* color: var(--primary); */
     /* font: 3.5em 'Righteous', sans-serif; */
