@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
 
 :root {
-    --primary: var(--black)024;
+    --primary: #000024;
     /* bluish*/
     --secondary: rgb(71, 196, 205);
     --tertiary: rgb(255, 0, 98);
